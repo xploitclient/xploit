@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>Ciphrr</title>
+  <meta name="description" content="Cifrr - Web Proxy" />
+  <meta name="keywords" content="proxy disquise" />
+  <link rel="shortcut icon" href="https://ciffr.repl.co/browser/Ciffrr.png"
+    type="image/x-icon" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e" />
+  <meta name="googlebot" content="index, follow, snippet" />
+  <link href="https://ciffr.repl.co/browser/index.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="browser">
+        <div class="navbar">
+            &nbsp;&nbsp; <a class="tablink active" onclick="openTab(event, 'tab1')">
+              <span class="tabname" ondblclick="editTabName(event, 'tab1')">Tab 1</span>
+            </a>
+            <a class="tablink" onclick="openNewTab()">+</a>
+            <div id="home">
+              &nbsp;
+              <!-- Just To annoy you ehhehe -->
+              <img src="https://ciffr.repl.co/browser/Arrows/forward.png" onclick="goBack()" />
+              <img src="https://ciffr.repl.co/browser/Arrows/backward.png" onclick="goForward()" />
+              <!-- HEHEHE -->
+              <img src="https://ciffr.repl.co/browser/Home.png" onclick="home()" />
+              <center>
+                <input autocomplete="on" type="text" placeholder="Search or Type a URL" required name="q" value="" class="address-bar" id="addressInput" />
+
+                <script>
+                  // Get the input field element
+                  var addressInput = document.getElementById("addressInput");
+                
+                  // Set the initial value to location.href
+                  addressInput.value = window.location.href;
+                
+                  // Add an event listener to check if the value has been changed
+                  addressInput.addEventListener("input", function() {
+                    // If the input value is empty, set it back to location.href
+                    if (addressInput.value === "") {
+                      addressInput.value = window.location.href;
+                    }
+                  });
+                </script>
+                
+              </center>
+
+    </div>
+
+    <div class="search">
+        <div class="home-container">
+            <span>
+              <image width="350px" height="150px" src="https://ciffr.repl.co/Cifrr.png">
+                <br />
+            </span>
+            <div class="home-container1">
+              <div class="home-container2">
+                <div class="home-container3">
+                  
+                  <form class="home-form">
+                    <input autocomplete="on" type="text" placeholder=" 🔎 
+       Search or Type a URL" required="" name="q"
+                      value="" class="home-textinput input" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script src="uv/uv.bundle.js"></script>
+        <script src="uv/uv.config.js"></script>
+        <script src="index.js"></script>
+      </body>
+      
+      </html>
+    </div>
+    
