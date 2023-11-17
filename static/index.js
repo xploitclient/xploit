@@ -1,3 +1,7 @@
+window.navigator.serviceWorker.register('./sw.js', {
+        scope: __uv$config.prefix
+    })
+
 const form = document.querySelector('form');
 const input = document.querySelector('input');
 
