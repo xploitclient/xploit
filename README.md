@@ -1,2 +1,3 @@
-# xploit
-Information, documentation, terms and more for xploit.
+# Introducing XPLOIT
+
+XPLOIT is your unblocked computer in the cloud. 
